@@ -1,0 +1,640 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+/*styling hero image*/
+.gif img{
+    width: 80%;
+    height: auto;
+    max-height: 300px;
+    box-shadow: 3px 5px 3px 3px rgb(60, 111, 60);
+    margin-bottom: 50px;
+    
+}
+
+
+/*top heading*/
+.ben img{
+    width: 70%;
+    height: auto;
+    max-height: 100px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 5px 3px 0px rgb(60, 111, 60)
+}
+.ben p{
+    color: rgb(28, 43, 28);
+    font-weight: bold;
+    margin-left: 20px;
+}
+.ben a{
+    color: white;
+    background-color: rgb(60, 111, 60);
+    margin-left: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* styling body*/
+.index{
+    background-color: white;
+    
+}
+
+/*styling div text*/
+.text{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    align-items: center;
+    margin: 20px;
+    
+}
+.text img{
+    box-shadow: 3px 5px 3px 0px rgb(60, 111, 60);}
+.text-content{
+    color: white;
+    background-color: rgb(51, 49, 49);
+    box-shadow: 3px 5px 3px 0px rgb(60, 111, 60);
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-items: center;
+    justify-self: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: "Brygada 1918";
+    margin-left: 20px;
+}
+.text-content h1{
+    background-color: white;
+    font-weight: bolder;
+    color: rgb(60, 111, 60);
+
+}
+
+.text-content h1:hover{
+    background-color: white;
+    font-weight: bolder;
+}
+
+/*navbar*/
+.navbar{
+    background-color: rgb(60, 111, 60);
+    color: white;
+}
+.nav-link{
+    color: white;
+    font-weight: bolder;
+}
+.nav-link:hover{
+    background-color: white;
+    color: rgb(60, 111, 60);
+    text-decoration: underline;
+    border: 2px rgb(51, 49, 49);
+    border-radius: 3px;
+}
+
+
+
+/*  "Join the Community" section */
+.join-community {
+    background-color: rgb(51, 49, 49);
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    margin-left: 300px;
+    margin-top: 50px;
+    margin-bottom: 300px;
+}
+
+.btn-join-telegram,
+.btn-join-twitter {
+    margin: 10px;
+}
+
+/* Slideshow Section Styles */
+.slideshow {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.slideshow-container {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.mySlides {
+    display: none;
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Slideshow Navigation Button Styles (customize as needed) */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*styling upper slideshow*/
+.slidy img{
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    margin-top: 0;
+    box-shadow: 4px 3px 3px 2px rgb(24, 197, 24);
+}
+
+
+
+.float-right {
+    margin-bottom: 40px;
+    
+}
+
+.gif{
+    margin-left: 500px;
+}
+
+
+/*feature content*/
+.contain{
+    margin-bottom: 40px;
+    margin-left: 40px;
+    box-shadow:0 3px 2px 3px rgb(49, 54, 49);
+    padding-top: 20px;
+    height: 350px;
+    background-color: rgb(24, 197, 24);
+    margin-right: 40px;
+    width: 50%;
+    border-radius: 5px;
+
+}
+.contain img{
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+}
+
+/*newsletter styling*/
+.newsletter{
+    margin-left: 500px;
+    width: 50%;
+    color: rgb(28, 43, 28);
+    border-radius: 5px;
+    box-shadow: 3px 2px 3px 3px rgb(51, 49, 49);
+    margin-bottom: 50px;
+}
+.subscribe{
+    text-align: center;
+    margin-bottom: 5px;
+}
+#newsletterEmail{
+color: white;
+border-radius: 5px;
+border: 2px solid rgb(60, 111, 60);
+}
+
+/*layout section*/
+.layout{
+    box-shadow:4px 3px 2px 3px rgb(24, 197, 24);
+    margin-right: 5px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background-color: white;
+
+}
+.layout:hover{
+    background-color: rgb(28, 43, 28);
+}
+.layout img{
+    width:300px ;
+    height: auto;
+    max-height: 300px;
+    margin-top: 5px;
+}
+.layout a{
+    color: rgb(28, 43, 28)
+}
+.layout a:hover{
+    color: white;
+}
+
+.grid{
+    margin-bottom: 30px;
+    width: 100%;
+     box-shadow: -3px -3px 2px 3px rgb(49, 54, 49);
+
+}
+
+.flex{
+    gap: 40px;
+    row-gap: 30px;
+    background-color: rgb(49, 54, 49);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    box-shadow: rgb(51, 49, 49);
+    border-radius: 5px;
+
+}
+.index section{
+    box-shadow: 3px 3px 2px 3px rgb(49, 54, 49);
+    border-radius: 5px;
+    margin-top: 50px;
+
+}
+
+
+/*testimonial section*/
+.testimonials{
+    background-color: rgb(24, 197, 24);
+    margin: 30px;
+    color: white;
+}
+.testimonials cite{
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+/*footer*/
+#last-section{
+    background-color: rgb(60, 111, 60);
+}
+.footer-links{
+    color: white;
+}
+.footer-links a{
+    color: white;
+
+}
+.foot{
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.social-links{
+    color: white;
+}
+.social-links a{
+    color: white;
+    
+}
+
+/*Merchandise*/
+
+ .collection {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;  
+    background-color: rgb(24, 197, 24);
+    box-shadow: rgb(49, 54, 49);
+    margin:0 50px 30px 50px;
+
+}
+.card{
+    border: 1px solid rgb(49, 54, 49);
+    background-color: white;
+    color: rgb(60, 111, 60);
+    height: fit-content;
+    border: 5px solid rgb(24, 197, 24);
+    margin: 5px 5px;
+    box-shadow: 3px 3px 2px 3px rgb(49, 54, 49); ;
+}
+
+
+.product img{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+
+.merch-body{
+    background-color: rgb(49, 54, 49);
+    color: white;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    background-color: white;
+    color: rgb(60, 111, 60);
+}
+
+.my-cart{
+    background-color: rgb(24, 197, 24);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#review-form{
+    margin-top: 10px;
+    background-color: white;
+    color: rgb(60, 111, 60);
+    box-shadow: 4px 3px 3px 2px rgb(24, 197, 24) ;
+    color: rgb(60, 111, 60);
+}
+
+#review-form input {
+    border: 2px solid rgb(51, 49, 49);
+    background-color: rgb(24, 197, 24);
+    color: white;
+    width: 50%;
+    margin-left: 60px;
+}
+
+.form-group textarea{
+    border: 2px solid rgb(51, 49, 49);
+    background-color: rgb(24, 197, 24);
+    color: white;
+    width: 70%;
+    margin-left:60px ;
+}
+
+#review-form button{
+    margin-bottom: 30px;
+    margin-left: 50%;
+}
+
+.form-group label{
+margin-top: 20px;
+margin-left: 50px;
+color: rgb(60, 111, 60);
+font-weight: bolder;
+}
+
+.col-head{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+/*styling the slideshow*/
+.merchandise-section{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px 3px rgb(49, 54, 49); 
+    justify-content: space-between;
+}
+.carousel-item img{
+    height: auto;
+    width: 300px;
+    max-height: 300px;
+    background-color: rgb(24, 197, 24);
+    box-shadow: 3px 3px 2px 3px rgb(24, 197, 24) inset;
+
+}
+.carousel-inner{
+    margin-top: 20px;
+}
+
+/*games*/
+.games{
+    background-image: url(/images/gilf.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+/* Overlay styles */
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+/* Close button styles */
+#close-notify-modal {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Modal styles */
+#notify-modal{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    z-index: 2;
+}
+
+/* Additional modal styles */
+.notify-content {
+    text-align: center;
+    color: rgb(60, 111, 60);
+}
+
+
+/* Button styles */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(24, 197, 24);
+    color: white;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color:rgb(60, 111, 60);
+    color: white
+}
+
+/*quiz*/
+.quiz{
+    background-image: url(images/4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.btns{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.btns p{
+    font-size: larger;
+    background-color:rgb(24, 197, 24);
+    color: white;
+    font-weight: bolder;
+    border-radius: 50%;
+    font-size: xx-large;
+    position: sticky;
+}
+
+.questions{
+    margin-bottom: 20px;
+}
+
+
+/*my-collections page*/
+.my-collection{
+    background-color: rgb(24, 197, 24);
+    color: white;
+}
+#upload-form{
+    color: white;
+    box-shadow: 3px 3px 3px 2px rgb(51, 49, 49);
+    text-align: center;
+    background-image: url(/images/51.jpg)
+}
+.my-collection section{
+    margin-bottom: 20px;
+    background-image: url(/images/50.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 3px 2px 3px 3px white;
+    justify-content: center;
+    align-content: center;
+}
+
+.list-inline a{
+    color: white;
+    background-color: rgb(51, 49, 49);
+    text-decoration: none;
+}
+
+/*character page*/
+.characters{
+    background-color:rgb(51, 49, 49); 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for character sections */
+.character-section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Adds a slight elevation */
+    transition: transform 0.2s;
+}
+
+.character-section:hover {
+    transform: translateY(-5px); /* Move the section up on hover */
+}
+
+/* Style for character images */
+.character-image {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc; /* Add a border for contrast */
+    opacity: 0.8; /* Make the image slightly transparent */
+    transition: opacity 0.2s;
+}
+
+.character-section:hover .character-image {
+    opacity: 1; /* Restore full opacity on hover */
+}
+
+.header-image {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px; /* Add some space below the header image */
+}
+.alien-forms{
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    align-items: center;
+}
+.alien-text{
+    color: white;
+}
+
+.intro{
+    color: white;
+}
+.social-btn{
+    margin-bottom: 20px;
+}
+
+/* fan community page*/
+
+#main-content img{
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    padding: 20px;
+
+}
+
+#sidebar a{
+    color: white;
+}
+#sidebar a:hover{
+    color: rgb(24, 197, 24);
+}
+#main-content section{
+background-color:rgb(24, 197, 24);
+margin-bottom: 30px;
+border-radius: 10px;
+box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+list-style-position: inside;
+}
+.fanbody{
+    background-color:white;
+}

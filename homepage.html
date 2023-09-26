@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom study</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Brygada+1918:ital@1&family=Lato:wght@300&family=Roboto&family=Work+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="dom.css">
+</head>
+<body class="index">
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+            <a class="navbar-brand" href="#">
+                <img src="/images/56.png"  width="30" height="30">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="homepage.html">Homepage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="games.html">Games</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact-us.html">Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quizzes.html">Quizzes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="merchandise.html">Merchandise</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="fan-community.html">Fan Community</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="my-collections.html">My Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="characters.html">Characters</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Additional Content Section: Featured Content -->
+<section class="featured-content ">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2></h2>
+            </div>
+            <div class="col-md-6  ">
+                <!-- Slideshow of Images -->
+                <div id="featured-slideshow" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <!-- Slide 1 -->
+                        <div class="carousel-item  slidy active">
+                            <img src="/images/1.jpg" >
+                        </div>
+                        <!-- Slide 2 -->
+                        <div class="carousel-item slidy">
+                            <img src="/images/2.jpg">
+                        </div>
+                        
+                        <div class="carousel-item slidy">
+                            <img src="/images/3.jpg">
+                        </div>
+                        <div class="carousel-item slidy">
+                            <img src="/images/4.jpg">
+                        </div>
+                        <div class="carousel-item slidy">
+                            <img src="/images/5.jpg">
+                        </div>
+                        
+                    </div>
+                    <!-- Controls -->
+                    <a class="carousel-control-prev" href="#featured-slideshow" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#featured-slideshow" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>   
+    </div>     
+</section>           
+       
+
+    <div class="ben">
+        <img src="/images/54.jpg">
+        <p>Join the adventure. Play games, take quizzes, and explore the characters.</p>
+        <a href="games.html" class="btn">Play Now</a>
+    </div>
+    <div class="text">
+        <div><img src="/images/55.png"></div>
+        <div class="text-content">
+        <p>Ben 10 never stops,<br>he always tops</p>
+        <h3>it's the hero vs villain season</h3>
+        <h1>New exciting collections and offers NOW available</h1>
+        </div>
+    </div>
+    <section class="hero gif">
+        <!-- Your hero content here (image or video) -->
+        <img src="/images/gilf.gif">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <!-- Other content, if needed, can go here -->
+                    
+                </div>
+                <div class="col-md-4">
+                    <button id="loginButton" class="btn btn-success  float-right"
+                     data-toggle="modal" data-target="#loginModal">Login</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Modal for Login and Sign-up Form -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-right" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="loginModalLabel">Login or Sign Up</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- Sign-In Form -->
+                <form id="signInForm">
+                    <h4>Sign In</h4>
+                    <div class="form-group">
+                        <label for="signInUsername">Username</label>
+                        <input type="text" class="form-control" id="signInUsername" placeholder="Enter your username">
+                    </div>
+                    <div class="form-group">
+                        <label for="signInPassword">Password</label>
+                        <input type="password" class="form-control" id="signInPassword" placeholder="Enter your password">
+                    </div>
+                    <button type="button" class="btn btn-primary">Sign In</button>
+                </form>
+
+                <!-- Sign-Up Form -->
+                <form id="signUpForm" style="display: none;">
+                    <h4>Sign Up</h4>
+                    <div class="form-group">
+                        <label for="signUpUsername">Username</label>
+                        <input type="text" class="form-control" id="signUpUsername" placeholder="Choose a username">
+                    </div>
+                    <div class="form-group">
+                        <label for="signUpPassword">Password</label>
+                        <input type="password" class="form-control" id="signUpPassword" placeholder="Create a password">
+                    </div>
+                    <button type="button" class="btn btn-success">Sign Up</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success" id="toggleSignUp">Switch to Sign Up</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<section class="grid">
+    <div class="container">
+        <div class="row flex">
+            <!-- Start of Grid Item 1 -->
+            <div class="col-md-4 layout">
+                <div class="grid-item layout-items">
+                    <a href="quizzes.html">
+                        <img src="/images/18.jpg"  class="img-fluid">
+                        <h2>Quizzes</h2>
+                        <p>Test your Ben 10 knowledge with quizzes.</p>
+                    </a>
+                </div>
+            </div>
+            <!-- End of Grid Item 1 -->
+
+            <!-- Start of Grid Item 2 -->
+            <div class="col-md-4 layout">
+                <div class="grid-item layout-items">
+                    <a href="games.html">
+                        <img src="/images/56.png" class="img-fluid">
+                        <h2>Games</h2>
+                        <p>Play exciting Ben 10 games.</p>
+                    </a>
+                </div>
+            </div>
+            <!-- End of Grid Item 2 -->
+
+            <!-- Start of Grid Item 3 -->
+            <div class="col-md-4 layout">
+                <div class="grid-item layout-items">
+                    <a href="characters.html">
+                        <img src="/images/17.jpg" class="img-fluid">
+                        <h2>Characters</h2>
+                        <p>Explore the characters of Ben 10.</p>
+                    </a>
+                </div>
+            </div>
+            <!-- End of Grid Item 3 -->
+
+            <!-- Start of Grid Item 4-->
+            <div class="col-md-4 layout">
+                <div class="grid-item layout-items">
+                    <a href="merchandise.html">
+                        <img src="/images/1.jpg"  class="img-fluid">
+                        <h2>Merchandise</h2>
+                        <p>Explore our amazing collections</p>
+                    </a>
+                </div>
+            </div>
+            <!-- End of Grid Item 4 -->
+            
+            <!-- Start of Grid Item 5 -->
+            <div class="col-md-4 layout">
+                <div class="grid-item layout-items">
+                    <a href="fan-community.html">
+                        <img src="/images/15.jpg"class="img-fluid">
+                        <h2>Fan Community</h2>
+                        <p>Join our fan community to get latest updates</p>
+                    </a>
+                </div>
+            </div>
+            <!-- End of Grid Item 5 -->
+            
+            <!-- Start of Grid Item 6 -->
+            <div class="col-md-4 layout">
+                <div class="grid-item layout-items">
+                    <a href="my-collections.html">
+                        <img src="/images/37.jpg"  class="img-fluid">
+                        <h2>My collections</h2>
+                        <p>create your custoised Art</p>
+                        </a>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>    
+            
+<section class="featured-content contain">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2></h2>
+            </div>
+            <div class="col-md-6">
+                <!-- Slideshow of Images -->
+                <div id="featured-slideshow" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <!-- Slide 1 -->
+                        <div class="carousel-item active">
+                            <img src="/images/11.jpg">
+                        </div>
+                        <!-- Slide 2 -->
+                        <div class="carousel-item">
+                            <img src="/images/15.jpg">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/images/23.jpg">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/images/5.jpg">
+                        </div>
+                        
+                    </div>
+                    <!-- Controls -->
+                    <a class="carousel-control-prev" href="#featured-slideshow" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#featured-slideshow" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>   
+    </div>
+</section>
+
+
+<!-- : Newsletter Signup -->
+<section class="newsletter">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Subscribe to Our Newsletter</h 2>
+                <p>Stay updated on the latest news, releases, and promotions.</p>
+                <!-- Newsletter Signup Form  -->
+                <form>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="newsletterEmail" placeholder="Enter your email">
+                    </div>
+                    <button type="submit" class="btn btn-success subscribe">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Additional Content Section: Testimonials -->
+<section class="testimonials">
+    <div class="container fanside">
+        <div class="row reviews">
+            <div class="col-md-12">
+                <h2>What Our Fans Say</h2>
+            </div>
+            <div class="col-md-4">
+                <div class="testimonial">
+                    <p>"I love Ben 10! The games are amazing!"</p>
+                    <cite>- Jerry</cite>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="testimonial">
+                    <p>"This franchise never disappoints. Can't wait for the next episode!"</p>
+                    <cite>- Victor</cite>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="testimonial">
+                    <p>"The merchandise collections are fantastic. I'm a huge fan!"</p>
+                    <cite>-  Ndifreke</cite>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- "Join the Community" Section -->
+<section class="join-community">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2>Join the Ben 10 Community</h2>
+                <p>Connect with other fans on Telegram and Twitter.</p>
+                <!-- "Join Community" Buttons -->
+                <a href="https://t.me/Ben10Community" target="_blank" class="btn btn-primary btn-join-telegram">Join on Telegram</a>
+                <a href="https://twitter.com/Ben10Community" target="_blank" class="btn btn-info btn-join-twitter">Follow on Twitter</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<section id="last-section">
+<footer class="footer">
+    <div class="container ">
+        <div class="row foot">
+            <div class="col-md-4">
+                <!-- Logo -->
+                <img src="/images/56.png" alt="Ben 10 Logo" width="100" height="100">
+            </div>
+            <div class="col-md-4">
+                <!-- Navigation Links -->
+                <ul class="footer-links">
+                    <li><a href="homepage.html">Homepage</a></li>
+                    <li><a href="games.html">Games</a></li>
+                    <li><a href="#episodes">Episodes</a></li>
+                    <li><a href="quizzes.html">Quizzes</a></li>
+                    <li><a href="merchandise.html">Merchandise</a></li>
+                    <li><a href="fan-community.html">Fan Community</a></li>
+                    <li><a href="my-collections.html">My Collections</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <!-- Social Media Links -->
+                <ul class="social-links">
+                    <li><a href="#"><img src="/images/fb.png"></a>facebook</li>
+                    <li><a href="#"><img src="/images/tw.png" alt="Twitter"></a>Twitter</li>
+                    <li><a href="#"><img src="/images/ig.png" alt="Instagram"></a>instagram</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+</section>
+
+
+
+    <script src="dom.js"></script>
+</body>
+</html>

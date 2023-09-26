@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom study</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Brygada+1918:ital@1&family=Lato:wght@300&family=Roboto&family=Work+Sans&display=swap" rel="stylesheet">
+    
+        <link rel="stylesheet" href="dom.css">
+</head>
+<body class="games">
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+            <a class="navbar-brand" href="#">
+                <img src="/images/56.png"  width="30" height="30">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="homepage.html">Homepage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="games.html">Games</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact-us.html">Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quizzes.html">Quizzes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="merchandise.html">Merchandise</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="fan-community.html">Fan Community</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="my-collections.html">My Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="characters.html">Characters</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="container text-center">
+        <h1 class="mt-5">Ben 10 Games</h1>
+        <p class="lead">Get ready for an epic gaming experience with Ben 10!</p>
+        <p class="mt-4">Our games are coming soon. Stay tuned for exciting adventures.</p>
+        <button id="notify-button" class="btn btn-success mt-4">Notify Me</button>
+    </div>
+
+    <div id="notify-modal" class="modal ">
+        <div class="modal-content notify-content">
+            <span class="close-button" id="close-notify-modal">&times;</span>
+            <h2>Notify Me</h2>
+            <p>Subscribe to receive updates about our games.</p>
+            <button id="subscribe-button">Subscribe</button>
+        </div>
+    </div>
+    <div id="notify-modal-overlay" class="modal-overlay"></div>
+      
+      
+
+
+    <script src="games.js"></script>
+</body>
+</html>

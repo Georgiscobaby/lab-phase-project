@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom study</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Brygada+1918:ital@1&family=Lato:wght@300&family=Roboto&family=Work+Sans&display=swap" rel="stylesheet">
+    
+        <link rel="stylesheet" href="dom.css">
+</head>
+<body class="my-collection">
+
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+            <a class="navbar-brand" href="#">
+                <img src="/images/56.png"  width="30" height="30">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="homepage.html">Homepage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="games.html">Games</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact-us.html">Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quizzes.html">Quizzes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="merchandise.html">Merchandise</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="fan-community.html">Fan Community</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="my-collections.html">My Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="characters.html">Characters</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!---->
+    <section class="container mt-5">
+        <h1 class="text-center">Welcome to Your Art Gallery</h1>
+        <p class="text-center">Express your creativity and share your Ben 10-themed art with the world!</p>
+    </section>
+    <div class="container mt-5">
+        <h1 class="text-center">My Collections</h1>
+        <hr>
+        <!-- Upload Form -->
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <form id="upload-form" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="artwork-title">Artwork Title:</label>
+                        <input type="text" class="form-control" id="artwork-title" required>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="artwork-image">Upload Artwork:</label>
+                        <input type="file" class="form-control-file" id="artwork-image" accept="image/*" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Upload</button>
+                </form>
+            </div>
+        </div>
+        <hr>
+        <!-- Display Uploaded Artwork -->
+        <div class="row" id="artwork-container">
+            <!-- Uploaded artwork cards will be displayed here -->
+        </div>
+    </div>
+
+    <!-- pagination-->
+<div class="row justify-content-center mt-4">
+    <nav aria-label="Artwork Pagination">
+        <ul class="pagination" id="pagination">
+            <!-- Pagination links will be added here dynamically -->
+        </ul>
+    </nav>
+</div>
+
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- Footer content for the left side -->
+                    <p>&copy; 2023 Ben 10 Franchise</p>
+                </div>
+                <div class="col-md-6 text-md-right">
+                    <!-- Footer content for the right side -->
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                        <li class="list-inline-item"><a href="#">Terms of Service</a></li>
+                        <li class="list-inline-item"><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+ 
+
+
+
+
+
+    <script src="my-collections.js"></script>
+</body>
+</html>

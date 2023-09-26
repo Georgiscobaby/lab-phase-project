@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom study</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Brygada+1918:ital@1&family=Lato:wght@300&family=Roboto&family=Work+Sans&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+
+        <link rel="stylesheet" href="dom.css">
+</head>
+<body class="fanbody">
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+            <a class="navbar-brand" href="#">
+                <img src="/images/56.png"  width="30" height="30">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="homepage.html">Homepage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="games.html">Games</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact-us.html">Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quizzes.html">Quizzes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="merchandise.html">Merchandise</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="fan-community.html">Fan Community</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="my-collections.html">My Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="characters.html">characters</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Side Navbar -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Side Navbar (offcanvas) -->
+            <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block bg-dark sidebar">
+                <div class="position-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#upcoming-events">
+                                Upcoming Events
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#podcasts">
+                                Podcasts
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#art-challenges">
+                                Art Challenges
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#fan-hangout">
+                                Fan Hangout
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#free-tickets">
+                                Free Tickets
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Main Content -->
+            <main id="main-content" class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <h1>Welcome to the Ben 10 Fan Community</h1>
+                <p>Connect with fellow fans, stay updated on the latest events, and participate in exciting challenges!</p>
+                
+<!-- Upcoming Events Section -->
+<section id="upcoming-events" class="mt-4">
+    <h2>Upcoming Events</h2>
+    <p>Stay tuned for these exciting upcoming events:</p>
+    <ul>
+        <li>
+            <strong>We are coming:</strong> Ben 10 Fan Meetup in your city! Join us for a day of fun, games, and cosplay.
+            <em>Date: [28/10/23]</em>
+        </li>
+        <li>
+            <strong>Meet the creators:</strong> Exclusive online webinar with Ben 10 creators. Get behind-the-scenes insights.
+            <em>Date: [01/10/23]</em>
+        </li>
+    </ul>
+    <div class="row mt-3">
+        <div class="col-md-6">
+            <img src="/images/new york.jfif" >
+        </div>
+        <div class="col-md-6">
+            <img src="/images/web2.jfif" >
+        </div>
+    </div>
+</section>
+
+<!-- Podcasts Section -->
+<section id="podcasts" class="mt-4">
+    <h2>Podcasts</h2>
+    <p>Listen to our latest podcasts featuring Ben 10 discussions and more:</p>
+    <ul>
+        <li>
+            <strong>The Genesis:</strong> Exploring the evolution of Ben's alien forms.
+            <em>Duration: [90 minutes]</em>
+        </li>
+        <li>
+            <strong>ben10 unmasked:</strong> Interview with the voice actor of Ben Tennyson.
+            <em>Duration: [60 minutes]</em>
+        </li>
+    </ul>
+    <div class="row mt-3">
+        <div class="col-md-6">
+            <img src="/images/pod1.jpg" >
+        </div>
+        <div class="col-md-6">
+            <img src="/images/pod2.jpg" >
+        </div>
+    </div>
+</section>
+
+<!-- Art Challenges Section -->
+<section id="art-challenges" class="mt-4">
+    <h2>Art Challenges</h2>
+    <p>Join our art challenges and showcase your creativity:</p>
+    <ul>
+        <li>
+            <strong>Challenge with your art:</strong> Create your own Ben 10 alien design. The winning design will be featured in our fan art gallery.
+        </li>
+        <li>
+            <strong>recreate your favourite scenes:</strong> Recreate a memorable scene from your favorite Ben 10 episode using any art medium.
+        </li>
+    </ul>
+    <div class="row mt-3">
+        <div class="col-md-6">
+            <img src="/images/art.jpg" >
+        </div>
+        <div class="col-md-6">
+            <img src="/images/gilf2.gif" >
+        </div>
+    </div>
+</section>
+
+<!-- Fan Hangout Section -->
+<section id="fan-hangout" class="mt-4">
+    <h2>Fan Hangout</h2>
+    <p>Hang out with fellow fans and discuss your favorite episodes:</p>
+    <ul>
+        <li>
+            <strong>Chatroom:</strong> Join our live chatroom every Friday at 8 PM (EST) to discuss Ben 10 episodes, theories, and more.
+        </li>
+        <li>
+            <strong>Forum:</strong> Explore our fan forum with dedicated sections for each Ben 10 series. Share your thoughts and connect with fans worldwide.
+        </li>
+    </ul>
+    <div class="row mt-3">
+        <div class="col-md-6">
+            <img src="/images/chat.png" >
+        </div>
+        <div class="col-md-6">
+            <img src="/images/forum.png" >
+        </div>
+    </div>
+</section>
+
+<!-- Free Tickets Section -->
+<section id="free-tickets" class="mt-4">
+    <h2>Free Tickets</h2>
+    <p>Learn how you can win free tickets to watch exclusive episodes:</p>
+    <ul>
+        <li>
+            <strong>Contest:</strong> Participate in our monthly fan art contest for a chance to win tickets to an advanced screening of the next Ben 10 episode.
+        </li>
+        <li>
+            <strong>Trivia Nights:</strong> Join our weekly trivia nights. Top scorers get exclusive access to upcoming episodes before anyone else.
+        </li>
+    </ul>
+    <div class="row mt-3">
+        <div class="col-md-6">
+            <img src="/images/contest.jpg" >
+        </div>
+        <div class="col-md-6">
+            <img src="/images/trivia.jfif" >
+        </div>
+    </div>
+</section>
+</main>
+
+<footer class="container mt-5">
+    <p class="text-center">&copy; 2023 Ben 10 fan community</p>
+</footer>
+
+</body>
+</html>
